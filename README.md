@@ -1,1 +1,1 @@
-Jag ska göra ett spel där man kan mäta hur fort man kan trycka space och spara det i en fil, och spara en leaderboard i en databas. Man ska även kunna 1v1a varandra och sen kunna spara sitt egna score i en fil eller på leaderboarden.
+Jag ska göra ett spel där man kan mäta hur fort man kan trycka space och spara det i en fil, och spara en leaderboard i en databas. Man ska även kunna 1v1a varandra och sen spara sitt egna score i en fil eller på leaderboarden.
