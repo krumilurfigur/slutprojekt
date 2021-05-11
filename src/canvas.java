@@ -1,5 +1,10 @@
 import javax.swing.*;
 
 public class canvas {
-    private JTextArea textArea1;
+    private JPanel panel;
+
+
+    public JPanel getPanel() {
+        return panel;
+    }
 }

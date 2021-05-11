@@ -1,6 +1,11 @@
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
-public interface KeyListener void keyPressed(KeyEvent e){
-    KeyEvent.getKeyCode() == KeyEvent.VK_SPACE;
 
+public class clicker {
+    public static void main(String[]args){
+        while(true) {
+
+        }
+    }
 }
