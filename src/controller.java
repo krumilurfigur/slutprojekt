@@ -12,30 +12,33 @@ public class controller {
         JFrame frame = new JFrame("canvas");
         frame.setContentPane(view.getPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.addKeyListener(new SpaceListener());
         frame.pack();
         frame.setVisible(true);
 
     }
     public class SpaceListener implements KeyListener {
         @Override
-        public void keyTyped(KeyEvent keyEvent) {
+        public void keyTyped(KeyEvent e) {
+            System.out.println("bah");
+            if (e.getKeyChar() == ' ') {
+                System.out.println("SPACE!");
+            }
+        }
+
+        @Override
+        public void keyPressed(KeyEvent e) {
 
         }
 
         @Override
-        public void keyPressed(KeyEvent VK_SPACE) {
-            System.out.println("click");
-        }
-
-        @Override
-        public void keyReleased(KeyEvent keyEvent) {
+        public void keyReleased(KeyEvent e) {
 
         }
     }
 
     public static void main(String[] args) {
         controller c  =new controller( new clicker(),new canvas());
-        if SpaceListener
     }
 
 }

@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class canvas {
+public class canvas{
     private JPanel panel;
 
 
