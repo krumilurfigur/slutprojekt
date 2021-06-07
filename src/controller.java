@@ -20,9 +20,10 @@ public class controller {
     public class SpaceListener implements KeyListener {
         @Override
         public void keyTyped(KeyEvent e) {
-            System.out.println("bah");
             if (e.getKeyChar() == ' ') {
                 System.out.println("SPACE!");
+                clicker.clicks ++;
+                System.out.println(clicker.clicks);
             }
         }
 
@@ -39,7 +40,9 @@ public class controller {
 
     public static void main(String[] args) {
         controller c  =new controller( new clicker(),new canvas());
+        new clicker.start;
     }
+
 
 }
 
